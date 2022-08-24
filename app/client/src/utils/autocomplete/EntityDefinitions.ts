@@ -649,7 +649,7 @@ export const entityDefinitions = {
   },
 };
 
-/* 
+/*
   $__name__$ is just to reduce occurrences of global def showing up in auto completion for user as `$` is less commonly used as entityName/
 
   GLOBAL_DEFS are maintained to support definition for array of objects which currently aren't supported by our generateTypeDef.
@@ -725,7 +725,7 @@ export const GLOBAL_FUNCTIONS = {
   postWindowMessage: {
     "!doc":
       "Establish cross-origin communication between Window objects/page and iframes",
-    "!type": "fn(message: unknown, targetOrigin: string)",
+    "!type": "fn(message: unknown, targetOrigin: string, source: string)",
   },
 };
 
